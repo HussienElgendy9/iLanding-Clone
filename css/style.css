@@ -6,12 +6,7 @@
   --white: #fff;
   --transition: all 0.3s ease-in-out;
 }
-
-<<<<<<< HEAD
  
-
-=======
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
 /* Reset */
 * {
   margin: 0;
@@ -424,90 +419,72 @@ header .container {
   padding: 0 1rem;
 }
 
-<<<<<<< HEAD
+ 
 .about .content {
   flex: 1;
 }
 
-.about  .subtitle {
-=======
-.content {
-  flex: 1;
-}
-
+ 
 .subtitle {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   color: var(--main-color);
   font-weight: 600;
   margin-bottom: 1rem;
   display: block;
 }
 
-<<<<<<< HEAD
+ 
 .about  .content h2 {
-=======
-.content h2 {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
   font-size: 2.5rem;
   color: var(--text-color);
   margin-bottom: 1.5rem;
   line-height: 1.2;
 }
 
-<<<<<<< HEAD
+ 
 .about  .description {
-=======
-.description {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
+ 
   color: #666;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
 
-<<<<<<< HEAD
+ 
 .about  .features {
-=======
-.features {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   display: flex;
   gap: 3rem;
   margin-bottom: 2rem;
 }
 
-<<<<<<< HEAD
+ 
 .about  .features ul {
   flex: 1;
 }
 
-.about  .features li {
-=======
-.features ul {
-  flex: 1;
-}
+ 
 
-.features li {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+.about .features li {
+ 
   display: flex;
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 1rem;
   color: var(--text-color);
 }
-
-<<<<<<< HEAD
+ 
 .about  .features i {
-=======
-.features i {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   color: var(--main-color);
   font-size: 1.25rem;
 }
 
-<<<<<<< HEAD
+ 
 .about  .contact-info {
-=======
-.contact-info {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
+ 
+ 
   display: flex;
   align-items: center;
   gap: 40px;
@@ -516,50 +493,42 @@ header .container {
   border-top: 1px solid #eee;
 }
 
-<<<<<<< HEAD
+ 
 .about .ceo {
-=======
-.ceo {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-<<<<<<< HEAD
+ 
 .about .ceo img {
-=======
-.ceo img {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   width: 60px;
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-<<<<<<< HEAD
+ 
 .about  .ceo-details h3 {
-=======
-.ceo-details h3 {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
+ 
   color: var(--text-color);
   margin-bottom: 0.25rem;
 }
 
-<<<<<<< HEAD
+ 
 .about .ceo-details span {
-=======
-.ceo-details span {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
+ 
   color: #666;
   font-size: 0.9rem;
 }
 
-<<<<<<< HEAD
+ 
 .about .phone {
-=======
-.phone {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -570,82 +539,64 @@ header .container {
   border-radius: 7px;
 }
 
-<<<<<<< HEAD
+ 
 .about .phone .icon i {
   color: var(--main-color);
   font-size: 27px;
 }
 .about .phone a {
-=======
-.phone .icon i {
-  color: var(--main-color);
-  font-size: 27px;
-}
-.phone a {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
+ 
   display: block;
   color: #666;
   font-size: 0.9rem;
   margin-bottom: 0.25rem;
 }
 
-<<<<<<< HEAD
+ 
 .about .phone a {
-=======
-.phone a {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   color: var(--text-color);
   font-weight: 600;
   font-size: 1.1rem;
 }
 
-<<<<<<< HEAD
+ 
 .about .image-wrapper {
-=======
-.image-wrapper {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   flex: 1;
   position: relative;
   width: 300px;
 }
 
-<<<<<<< HEAD
+ 
 .about .main-image {
-=======
-.main-image {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
 }
 
-<<<<<<< HEAD
+ 
 .about .main-image img {
-=======
-.main-image img {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   height: auto;
   display: block;
   position: relative;
 }
 
-<<<<<<< HEAD
+ 
 .about .inImage {
-=======
-.inImage {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   position: absolute;
   bottom: 40px;
   left: -44px;
   border: 10px solid #fff;
   border-left: 0;
   border-radius: 30px;
-}
-<<<<<<< HEAD
+} 
 .about .inImage img {
-=======
-.inImage img {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   position: absolute;
   bottom: 80px;
   border: 10px solid #fff;
@@ -653,11 +604,9 @@ header .container {
   border-left: 0;
 }
 
-<<<<<<< HEAD
+ 
 .about .experience-badge {
-=======
-.experience-badge {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   position: absolute;
   bottom: 1rem;
   right: 21px;
@@ -670,39 +619,33 @@ header .container {
   animation: float 3s ease-in-out infinite;
 }
 
-<<<<<<< HEAD
+ 
 .about .experience-badge h3 {
-=======
-.experience-badge h3 {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
+ 
   font-size: 2.5rem;
   margin-bottom: 0.25rem;
 }
 
-<<<<<<< HEAD
+ 
 .about .experience-badge p {
-=======
-.experience-badge p {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
+ 
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
 
-<<<<<<< HEAD
+ 
 .about .experience-badge span {
-=======
-.experience-badge span {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
   font-size: 0.9rem;
   opacity: 0.9;
 }
 
 @media (max-width: 992px) {
-<<<<<<< HEAD
+ 
   .about   .experience-badge {
-=======
-  .experience-badge {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
     position: absolute;
     bottom: -100px;
   }
@@ -714,35 +657,27 @@ header .container {
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
+ 
   .about .features {
-=======
-  .features {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
     flex-direction: column;
     gap: 1rem;
   }
 
-<<<<<<< HEAD
+ 
   .about .contact-info {
-=======
-  .contact-info {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
     flex-direction: column;
     gap: 1.5rem;
     text-align: center;
   }
 
-<<<<<<< HEAD
   .about .phone {
-=======
-  .phone {
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
+ 
     text-align: center;
   }
 }
 
-<<<<<<< HEAD
 /* Faters */
 
 .features-section {
@@ -933,8 +868,6 @@ header .container {
   
 
  }
-=======
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
 /* phone Mockup */
 .phoneMockup {
   margin-top: 100px;

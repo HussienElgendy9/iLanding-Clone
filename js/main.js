@@ -66,7 +66,6 @@ const swiper = new Swiper('.swiper-container', {
       slidesPerView: 1, 
     },
   },
-<<<<<<< HEAD
 });
 
 // Feat
@@ -82,6 +81,4 @@ tabs.forEach((tab) => {
     const contentId = tab.getAttribute('data-content');
     document.querySelector(`.${contentId}`).classList.add('active');
   });
-=======
->>>>>>> 13e0db0495732e1cadc3839f9f53cba6807350b8
 });
