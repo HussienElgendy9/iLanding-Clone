@@ -1,0 +1,115 @@
+<?php
+session_start();
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLanding Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">iLanding</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="">Dropdown</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="icons">
+                  <a href="logout.php" class="btn">Log-out</a>
+                  <div class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <div class="columns">
+                <div class="content">
+                    <div class="company-badge" >
+                        <i class="fa-solid fa-gear"></i>
+                        Working for Your Success
+                    </div>
+                    <h1 class="title">Maecenas Vitae
+                        Consectetur Led
+                        Vestibulum Ante</h1>
+                    <p class="comment">Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. </p>
+                </div>
+                <div class="badges">
+                    <img src="assets/img/animation.png" alt="Hero Image" class="img-fluid">
+                    <div class="customer-badge">
+                        <p>12,000+ lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="rect">
+                    <div class="col">
+                        <div class="stat-item">
+                          <div class="stat-icon">
+                            <i class="fa-solid fa-award"></i>                          </div>
+                          <div class="stat-content">
+                            <h4>3x Won Awards</h4>
+                            <p class="mb-0">Vestibulum ante ipsum</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="stat-item">
+                          <div class="stat-icon">
+                            <i class="fa-solid fa-award"></i>                          </div>
+                          <div class="stat-content">
+                            <h4>3x Won Awards</h4>
+                            <p class="mb-0">Vestibulum ante ipsum</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="stat-item">
+                          <div class="stat-icon">
+                            <i class="fa-solid fa-award"></i>                          </div>
+                          <div class="stat-content">
+                            <h4>3x Won Awards</h4>
+                            <p class="mb-0">Vestibulum ante ipsum</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="stat-item">
+                          <div class="stat-icon">
+                            <i class="fa-solid fa-award"></i>                          </div>
+                          <div class="stat-content">
+                            <h4>3x Won Awards</h4>
+                            <p class="mb-0">Vestibulum ante ipsum</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+        </section>
+    </main>
+
+    <section id="services">
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* card.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the form card on the page */
+.card-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading of the card */
+.card-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label styling */
+.card-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+/* Input fields styling */
+.card-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+/* Focus effect on input fields */
+.card-container input:focus {
+    border-color: #0d83fd;
+    outline: none;
+}
+
+/* Button styling */
+.card-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0d83fd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.card-container button:hover {
+    background-color: #005bb5;
+}
+
+/* Link for navigation between pages */
+.card-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Styling the link */
+.card-container a {
+    color: #0d83fd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-container a:hover {
+    text-decoration: underline;
+}
