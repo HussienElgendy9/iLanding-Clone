@@ -670,20 +670,35 @@ border-radius: 7px;
   gap: 10px;
 }
 
-  .phoneMockup .text-right .box{
+.phoneMockup .text-right .box{
  display: flex;
  align-items: center;
  justify-content: center;
  gap: 10px;
+ margin: 20px 0;
 }
  
-.phoneMockup .text-right{
+
+.phoneMockup .icon{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+ width: 70px;
+ height: 70px;
+ background-color: #bcdcff32;
+ border-radius: 50%;
+ color: var(--main-color);
+}
+.phoneMockup .icon i{
+  font-size: 22px;
+}
+ 
+.phoneMockup  p{
+  font-size: 15px;
+  color: #777;
  
 }
-.phoneMockup .text-right .box{
- 
-}
- 
 .phoneMockup .mockup{
  width: 500px;
 }
