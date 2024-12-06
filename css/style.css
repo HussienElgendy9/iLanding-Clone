@@ -646,60 +646,55 @@ border-radius: 7px;
   }
 }
 
-/* Phone Mockep */
-.features-section {
+/* phone Mockup */
+.phoneMockup{
+
+}
+.phoneMockup .container{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
-  padding: 40px;
-  background-color: #f9f9f9;
-}
+ justify-content: center;
+ gap: 40px;
 
-.features {
+  
+}
+ 
+.phoneMockup .text-left{
+ text-align: right;
+}
+.phoneMockup .text-left .box{
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-  max-width: 300px;
-  margin: 20px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 10px;
 }
 
-.feature {
+  .phoneMockup .text-right .box{
  display: flex;
  align-items: center;
  justify-content: center;
- background-color: #eee;
+ gap: 10px;
 }
+ 
+.phoneMockup .text-right{
+ 
+}
+.phoneMockup .text-right .box{
+ 
+}
+ 
+.phoneMockup .mockup{
+ width: 500px;
+}
+.phoneMockup .mockup img{
+ max-width: 100%;
+}
+ 
 
-.feature .icon {
-  margin-bottom: 10px;
-}
+ 
 
-.feature img {
-  width: 40px;
-  height: 40px;
-}
 
-.feature h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
 
-.feature p {
-  font-size: 14px;
-  color: #555;
-}
 
-.phone-mockup {
-  flex: 1;
-  text-align: center;
-  margin: 20px;
-}
 
-.phone-mockup img {
-  max-width: 300px;
-  border-radius: 20px;
-}
