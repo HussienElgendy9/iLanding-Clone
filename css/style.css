@@ -920,6 +920,119 @@ header .container {
 .swiper-pagination-bullet-active {
   background: blue;
 }
+/* test */
+
+/* Testimonials */
+
+
+.Testimonials-section {
+  background-color: #fffffF;
+  margin-top: 90px;
+  text-align: center;
+  padding: 50px 0;
+ }
+ 
+ 
+ .Testimonials-section .Testimonials-title h2 {
+   font-size: 2rem;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 10px;
+ }
+ .Testimonials-section .Testimonials-title p {
+   margin-bottom: 50px; 
+ }
+ 
+ .Testimonials-section .Testimonials-title .underline {
+   width: 50px;
+   height: 3px;
+   background-color: #007bff;
+   margin: 0 auto 20px; 
+   border-radius: 2px;
+ }
+ 
+ 
+ /* ========================= */
+ 
+ 
+.testimonials-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: 10px auto;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .testimonials-cards {
+    grid-template-columns: 1fr; 
+    gap: 20px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-cards {
+    width: 90%; 
+    gap: 15px; 
+  }
+}
+
+.testimonials-cards .testimonial-card {
+  background: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.testimonials-cards .testimonial-card .card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.testimonials-cards .testimonial-card .profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonials-cards .testimonial-card  h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.testimonials-cards .testimonial-card  p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.testimonials-cards .testimonial-card .stars {
+  color: #ffc107;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.testimonials-cards .testimonial-card  .testimonial-text {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.5;
+  position: relative;
+  margin: 0;
+}
+
+.testimonials-cards .testimonial-card .testimonial-text .fa-solid::before,
+.testimonials-cards .testimonial-card .testimonial-text .fa-solid::after {
+
+  font-size: 1.2em;
+  color: #3b88f5;
+  position: relative;
+}
 
 
 /* Status */
@@ -1108,4 +1221,136 @@ header .container {
 .massage2 button:hover {
   background-color: var(--white);
   color: var(--main-color);
+}
+
+
+/* Contact */
+.contact-section {
+  padding: 50px 20px;
+
+}
+.contact-section  .contact-title {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contact-section  .underline{
+  width: 50px;
+  height: 3px;
+  background-color: #007bff;
+  margin: 0 auto 20px;
+  border-radius: 2px;
+} 
+.contact-section .contact-description{
+  font-size: 1rem;
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 40px;
+} 
+
+.contact-section .container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-section .contact-info, .contact-form {
+ 
+  padding: 30px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.contact-section .contact-info {
+  background-color: #007bff;
+  color: white;
+}
+
+.contact-section .contact-info h2, .contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-section .contact-info p, .contact-form p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contact-section .info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.contact-section .info-item .icon {
+ background-color: #f7faff3a;
+ width: 50px;
+ height: 50px;
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+border-radius: 50%;
+  margin-right: 15px;
+}
+.contact-section .info-item .icon i{
+  font-size: 22px;
+ 
+}
+
+.contact-section .info-item h4 {
+  margin-bottom: 5px;
+}
+.contact-section .contact-info {
+  flex: 1;
+}
+.contact-section .contact-form form {
+  display: flex;
+ 
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-section .form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-section .form-group input {
+  flex: 1;
+}
+
+.contact-section input, textarea {
+  width: 100%;
+  padding: 20px 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+}
+
+.contact-section textarea {
+  resize: none;
+  height: 200px;
+
+}
+
+.contact-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  width:200px;
+  margin: 0 auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #0056b3;
 }
