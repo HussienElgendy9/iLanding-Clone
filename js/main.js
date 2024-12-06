@@ -40,3 +40,30 @@ document.addEventListener('click', (e) => {
     nav.classList.remove('active');
   }
 });
+
+
+
+const swiper = new Swiper('.swiper-container', {
+  loop: true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  slidesPerView: 4,  
+  spaceBetween: 30, 
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 5, 
+    },
+    480: {
+      slidesPerView: 3, 
+    },
+    320: {
+      slidesPerView: 1, 
+    },
+  },
+});
