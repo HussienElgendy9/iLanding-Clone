@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,15 +32,16 @@
       </div>
       <nav>
         <ul class="nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <button class="login">Login</button>
+      <a href="logout.php" class="logout">Log-Out</a>
+      <!-- <button class="login">Login</button> -->
       <div class="hamburger">
         <span></span>
         <span></span>
@@ -41,7 +50,7 @@
     </div>
   </header>
   <!-- section Hero -->
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="container">
       <div class="text">
         <p class="setting">
@@ -122,7 +131,7 @@
     </div>
   </section>
   <!-- About Scetion -->
-  <section class="about">
+  <section id="about" class="about">
     <div class="container">
       <div class="content">
         <span class="subtitle">MORE ABOUT US</span>
@@ -133,7 +142,7 @@
           quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
           explicabo.
         </p>
-        <div class="features">
+        <div id="features" class="features">
           <ul class="left-features">
             <li><i class="fas fa-check-circle"></i>Lorem ipsum dolor sit amet</li>
             <li><i class="fas fa-check-circle"></i>Consectetur adipiscing elit</li>
@@ -528,7 +537,7 @@
 
   <!-- Services -->
 
-  <section class="services">
+  <section id="services" class="services">
     <h2 class="services-title">Services</h2>
     <div class="underline"></div>
     <p class="services-description">
@@ -600,7 +609,7 @@
 
   <!-- Pricing -->
 
-  <section class="pricing">
+  <section id="pricing" class="pricing">
 
     <div class="section-title">
       <h2>Pricing</h2>
@@ -727,24 +736,6 @@
 
   </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- Massage -->
   <section class="massage2">
     <h2>Call To Action</h2>
@@ -754,7 +745,7 @@
   </section>
 
   <!-- Contact -->
-  <section class="contact-section">
+  <section id="contact" class="contact-section">
     <h2 class="contact-title">Contact Us</h2>
     <div class="underline"></div>
     <p class="contact-description">

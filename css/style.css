@@ -79,6 +79,18 @@ header .container {
   padding: 10px 30px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+header .container .logout{
+  background-color: var(--main-color);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid var(--main-color);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
 
 .logo h1 {
   font-weight: normal;
@@ -163,7 +175,7 @@ header .container {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .login {
+  .logout {
     display: none;
   }
 }
@@ -1202,7 +1214,7 @@ header .container {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 50px 20px;
+  padding: 4.5rem;
   background-color: #f9f9f9;
 }
 .pricing .section-title {
@@ -1224,7 +1236,7 @@ header .container {
   width: 25%;
   background-color: #ffffff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 3rem;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -1236,7 +1248,7 @@ header .container {
 
 .pricing .pricing-card-container .pricing-card h3 {
   color: #007bff;
-  margin-bottom: 20px;
+  margin-bottom: 3%;
   font-size: 1.5rem;
 }
 
@@ -1244,44 +1256,44 @@ header .container {
   font-size: 2rem;
   font-weight: bold;
   color: #000;
-  margin-bottom: 15px;
+  margin-bottom: 3%;
 }
 
-.pricing .pricing-card-container .pricing-card .price .currency {
-  font-size: 1.2rem;
+.pricing .pricing-card-container .pricing-card .price .period {
+  font-size: 0.6em;
 }
 
 .pricing .pricing-card-container .pricing-card p.description {
-  font-size: 0.9rem;
-  margin-bottom: 20px;
-  padding: 0 10px;
+  font-size: 1rem;
+  margin-bottom: 3%;
+  padding: 0 2rem;
 }
 
 .pricing .pricing-card-container .pricing-card ul.features-list {
   list-style: none;
   padding: 0;
-  margin: 20px auto;
+  margin: 2rem auto;
   text-align: center;
 }
 
 .pricing .pricing-card-container .pricing-card ul.features-list li {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.8rem;
   font-size: 0.9rem;
   text-align: center;
 }
 
 .pricing .pricing-card-container .pricing-card ul.features-list li i {
   color: #007bff;
-  margin-right: 10px;
+  margin-right: 1rem;
   text-align: center;
 }
 
 .pricing .pricing-card-container .pricing-card a.btn {
   display: inline-block;
-  padding: 10px 20px;
-  margin-top: 20px;
+  padding: 0.8rem 1.8rem;
+  margin-top: 1rem;
   border-radius: 5px;
   color: #007bff;
   background-color: #ffffff;
@@ -1306,11 +1318,12 @@ header .container {
 .pricing .pricing-card-container .pricing-card.popular .popular-badge {
   position: absolute;
   top: -10px;
-  right: 35%;
+  left: 50%;
+  transform: translateX(-50%);
   color: #007bff;
   background-color: #fff;
   font-size: 0.8rem;
-  padding: 5px 10px;
+  padding: 0.4rem 0.8rem;
   border-radius: 20px;
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
@@ -1329,7 +1342,7 @@ header .container {
   }
   .pricing .pricing-card-container .pricing-card{
     width: 100%;
-    margin: 10px 0;
+    margin: 1rem 0;
   }
 }
 /* Massage2 */
